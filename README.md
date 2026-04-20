@@ -126,6 +126,33 @@
 
 </div>
 
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🎖️  GITHUB ACHIEVEMENT UNLOCKED                                │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   🤠  QUICKDRAW  —  "Gitty up!"                                 │
+│                                                                 │
+│   ▸ Tier    : 100% Unlocked ✅                                  │
+│   ▸ Date    : April 19, 2026                                    │
+│   ▸ Trigger : Closed a PR within 5 minutes of opening          │
+│   ▸ Verdict : Fast hands. Faster mind. ⚡                       │
+│                                                                 │
+│   [ ████████████████████ ] 100%  — ACHIEVEMENT COMPLETE        │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+[![Quickdraw](https://img.shields.io/badge/🤠_QUICKDRAW-Gitty%20up!-00FF00?style=for-the-badge&labelColor=003300)](https://github.com/tandeptrai556-maker?achievement=quickdraw&tab=achievements)
+&nbsp;
+![Achievement](https://img.shields.io/badge/STATUS-100%25_UNLOCKED-00ff41?style=for-the-badge&labelColor=001a00)
+
+</div>
+
 ---
 
 ## 📈 `./activity-graph`
