@@ -89,14 +89,99 @@
 
 <div align="center">
 
-| 🔧 Project | ⚡ Description | 🛠️ Stack | 🏷️ Status |
-|:---|:---|:---|:---|
-| **🤖 Messenger AI Bot** | Bot Facebook tích hợp AI, auto reply thông minh | Node.js · LLM API | `🟢 LIVE` |
-| **⚙️ Auto Automation Engine** | Hệ thống tự động hóa tác vụ Facebook quy mô lớn | Node.js · Cron · Puppeteer | `🟡 DEV` |
-| **🧠 Smart Webhook System** | Hệ thống webhook xử lý events real-time tốc độ cao | Express · Cloudflare | `🟢 LIVE` |
-| **📡 Multi-Account Manager** | Quản lý đa tài khoản với session persistence | Node.js · MongoDB | `🔵 BETA` |
+| 🔧 Project | ⚡ Description | 🛠️ Stack | 🔗 Demo | 🏷️ Status |
+|:---|:---|:---|:---|:---|
+| **🤖 Messenger AI Bot** | Bot Facebook tích hợp AI, auto reply thông minh | Node.js · LLM API | [▶ Live Demo](https://github.com/tandeptrai556-maker) | `🟢 LIVE` |
+| **⚙️ Auto Automation Engine** | Hệ thống tự động hóa tác vụ Facebook quy mô lớn | Node.js · Cron · Puppeteer | [▶ Live Demo](https://github.com/tandeptrai556-maker) | `🟢 LIVE` |
+| **🧠 Smart Webhook System** | Hệ thống webhook xử lý events real-time tốc độ cao | Express · Cloudflare | [▶ Live Demo](https://github.com/tandeptrai556-maker) | `🟢 LIVE` |
+| **📡 Multi-Account Manager** | Quản lý đa tài khoản với session persistence | Node.js · MongoDB | [▶ Preview](https://github.com/tandeptrai556-maker) | `🔵 BETA` |
 
 </div>
+
+---
+
+## ⏱️ `./wakatime --coding-stats`
+
+<div align="center">
+
+<!--
+  ⚙️ SETUP: Để kích hoạt Wakatime stats, làm theo 3 bước:
+  1. Đăng ký tại https://wakatime.com và cài WakaTime extension trong VS Code
+  2. Lấy API key từ https://wakatime.com/api-key, thêm vào GitHub Secrets với tên WAKATIME_API_KEY
+  3. Thêm GitHub Action bên dưới vào file .github/workflows/wakatime.yml
+  Sau khi setup, xoá phần comment này và uncomment dòng img bên dưới.
+-->
+
+[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=tandeptrai556-maker&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=ccffcc&layout=compact)](https://wakatime.com/@tandeptrai556-maker)
+
+```bash
+# 💡 GitHub Action để tự động sync WakaTime
+# Tạo file: .github/workflows/wakatime.yml
+#
+# name: Waka Readme
+# on:
+#   schedule: [{ cron: "30 18 * * *" }]
+#   workflow_dispatch:
+# jobs:
+#   update-readme:
+#     name: Update Readme with WakaTime Stats
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: anmol098/waka-readme-stats@master
+#         with:
+#           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+```
+
+</div>
+
+---
+
+## 🎵 `./now-playing`
+
+<div align="center">
+
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=00ff00)](https://open.spotify.com)
+
+<!--
+  ⚙️ SETUP Spotify widget:
+  1. Fork repo: https://github.com/novatorem/novatorem
+  2. Tạo Spotify app tại https://developer.spotify.com/dashboard
+  3. Deploy lên Vercel + thêm env vars CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN
+  4. Thay URL trên bằng link Vercel của bạn
+-->
+
+</div>
+
+---
+
+## 💼 `./services --freelance`
+
+```bash
+╔══════════════════════════════════════════════════════════════════╗
+║                  🔥 DỊCH VỤ & BÁO GIÁ                          ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  🤖 BOT FACEBOOK MESSENGER                                       ║
+║     ├─ Bot auto reply cơ bản           →  Liên hệ báo giá       ║
+║     ├─ Bot tích hợp AI / LLM           →  Liên hệ báo giá       ║
+║     └─ Bot full-featured + dashboard   →  Liên hệ báo giá       ║
+║                                                                  ║
+║  ⚙️  AUTOMATION & SCRIPTING                                       ║
+║     ├─ Script tự động hóa tác vụ       →  Liên hệ báo giá       ║
+║     ├─ Webhook system real-time        →  Liên hệ báo giá       ║
+║     └─ Hệ thống đa tài khoản          →  Liên hệ báo giá       ║
+║                                                                  ║
+║  🧠 AI INTEGRATION                                               ║
+║     ├─ Tích hợp ChatGPT / Claude API   →  Liên hệ báo giá       ║
+║     └─ Custom AI workflow              →  Liên hệ báo giá       ║
+║                                                                  ║
+║  📦 COMBO PACKAGE                      →  Giảm 20% khi combo     ║
+║                                                                  ║
+║  ⚡ Phản hồi trong 24h  |  🛡️ Bảo hành sau bàn giao             ║
+║  🤝 Tư vấn miễn phí    |  📞 Nhắn FB để báo giá chi tiết        ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
@@ -173,6 +258,32 @@
 
 </div>
 
+<!--
+  ⚙️ SETUP Snake Animation (bắt buộc để SVG không bị broken):
+  Tạo file .github/workflows/snake.yml với nội dung sau:
+
+  name: Generate Snake
+  on:
+    schedule: [{ cron: "0 0 * * *" }]
+    workflow_dispatch:
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: Platane/snk@v3
+          with:
+            github_user_name: tandeptrai556-maker
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        - uses: crazy-max/ghaction-github-pages@v3
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+-->
+
 ---
 
 ## 📡 `./contact --priority`
@@ -210,7 +321,7 @@
 │   UPTIME   : 99.9% 🟢                                           │
 │   STREAK   : UNBROKEN 🔥                                        │
 │   MISSION  : ONGOING — NEVER STOPS 🚀                           │
-│   VERSION  : 2.0 — UPGRADED & LETHAL                            │
+│   VERSION  : 3.0 — UPGRADED & LETHAL                            │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
